@@ -1,6 +1,6 @@
 import java.util.*
 
-// 프로그래머스 DP 3번 정수삼각형
+// 프로그래머스 BFS 2번 네트워크
 fun main(Args: Array<String>) {
 	var arr = arrayOf(
 		intArrayOf(1, 1, 0), intArrayOf(1, 1, 0), intArrayOf(0, 0, 1)
