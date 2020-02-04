@@ -18,7 +18,7 @@ fun solution2(clothes: Array<Array<String>>): Int {
 
 	for (i in 0 until length) {
 		if (hashMap.containsKey(clothes[i][1])) {
-			var cnt = hashMap.get(clothes[i][1])!!.plus(1);
+			var cnt:Int = hashMap.get(clothes[i][1])!! + 1;
 			hashMap.put(clothes[i][1], cnt);
 		} else {
 			hashMap.put(clothes[i][1], 1);
