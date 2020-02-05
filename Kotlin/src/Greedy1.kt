@@ -1,3 +1,4 @@
+// ÇÁ·Î±×·¡¸Ó½º Å½¿å¹ý1¹ø Ã¼À°º¹
 fun main(Args: Array<String>) {
 
 	val n: Int = 5;

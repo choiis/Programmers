@@ -1,5 +1,6 @@
 import java.lang.StringBuilder
 
+// 프로그래머스 탐욕법3번 큰 수 만들기
 fun main(Args: Array<String>) {
 	val number: String = "4177252841";
 	val k: Int = 4;

@@ -54,12 +54,8 @@ fun solution2(n: Int, edge: Array<IntArray>): Int {
 	return answer
 }
 
-class Vertex {
+class Vertex(point: Int, distance: Int) {
 	var point: Int = 0;
 	var distance: Int = 0;
 
-	constructor(point: Int, distance: Int) {
-		this.point = point;
-		this.distance = distance;
-	}
 }

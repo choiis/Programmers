@@ -1,6 +1,7 @@
 import java.util.PriorityQueue
 import java.util.Queue
 
+// 프로그래머스 힙1 더 맵게
 fun main(Args: Array<String>) {
 
 	var arr: IntArray = intArrayOf(1, 2, 3, 9, 10, 12);

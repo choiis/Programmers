@@ -53,9 +53,9 @@ fun solution2(priorities: IntArray, location: Int): Int {
 	return answer + 1;
 }
 
-internal class Printer : Comparable<Printer> {
-	var prior: Int = 0
-	var idx: Int = 0
+open class Printer : Comparable<Printer> {
+	protected var prior: Int = 0
+	protected var idx: Int = 0
 
 	constructor() {
 

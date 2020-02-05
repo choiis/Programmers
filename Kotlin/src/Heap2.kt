@@ -1,6 +1,7 @@
 import java.util.PriorityQueue
 import java.util.Queue
 
+// 프로그래머스 힙2 라면공장
 fun main(Args: Array<String>) {
 
 	val stock: Int = 4;
@@ -15,7 +16,7 @@ fun solution(stock: Int, dates: IntArray, supplies: IntArray, K: Int): Int {
 	var answer: Int = 0;
 	val priorityQueue: Queue<Flour> = PriorityQueue<Flour>();
 
-	var idx = 0;
+	var idx: Int = 0;
 	for (day in 0 until K) {
 		if (idx < dates.size && day == dates[idx])
 			priorityQueue.add(Flour(supplies[idx++]));
